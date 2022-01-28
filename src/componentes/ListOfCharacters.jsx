@@ -30,7 +30,7 @@ const ListOfCharacters = () => {
         <button onClick={back}>‹</button>
         <button onClick={next}>›</button>
 
-        <ul className={styles.grid} className="cardsStyle">
+        <ul className={styles.grid}>
         {characters.map(({id, name, image, gender, species, status}) => (
         <Character name={name} image={image} gender={gender} species={species} status={status} id={id} key={id}/>
         ))}  
