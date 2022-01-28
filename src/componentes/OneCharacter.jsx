@@ -20,16 +20,15 @@ const OneCharacter = () =>{
 
 return(
     <div>
-        <h1>Personaje numero:{charId} </h1>
         {
             character === undefined ? <p>Cargando...</p> :
             <div>
             <h1>{character.name}</h1>
           <img src={character.image} alt="" />
-          <p>{character.status}</p>
-          <p>{character.species}</p>
-          <p>{character.gender}</p>
-          <p>{character.origin.name}</p>
+          <p>Status: {character.status}</p>
+          <p>Specie: {character.species}</p>
+          <p>Gender: {character.gender}</p>
+          <p>Planet: {character.origin.name}</p>
             </div>
         }
     </div>

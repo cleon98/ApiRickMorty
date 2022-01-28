@@ -1,0 +1,19 @@
+article{
+    display: flex;
+}
+h1{
+    color: #99580ff5;
+    padding: 25px;
+}
+p{
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 25px;
+    text-align: justify;
+}
+.explanation img{
+    width: 550px;
+    padding-right: 80px;
+    padding-left: 40px;
+}

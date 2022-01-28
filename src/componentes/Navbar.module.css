@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.Navbar{
+    background-color: #8674e9;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.Navbar ul {
+    display: flex;
+    padding-top: 40px;
+    float: right;
+}
+
+.Navbar a{
+    text-decoration: none;
+    color: #34256b;
+}
+
+.Navbar a:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+.Navbar img{
+    width: 220px;
+    height: auto;
+    padding-left: 30px;
+}
+.Navbar li{
+    list-style: none;
+    font-size: 20px;
+    font-weight:700 ;
+    padding: 0px 150px 0px 80px;
+}

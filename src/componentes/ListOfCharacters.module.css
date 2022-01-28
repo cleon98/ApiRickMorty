@@ -1,3 +1,25 @@
-/* section{
-    display:flex ;
-} */
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: #4e2bec;
+}
+a:hover{
+    color: #00032c;
+    transition: 0.4s;
+}
+button{
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #acacac;
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+button:hover {
+    background-color: rgb(121, 37, 133);
+    color: white;}
