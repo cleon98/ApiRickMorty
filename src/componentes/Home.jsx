@@ -3,6 +3,9 @@ import text from "../imgs/text1.jpg"
 const Home = () =>{
     return(
         <div className={styles.explanation}>
+            <header>
+                
+            </header>
         <h1>Rick and Morty</h1>
         <article>
         <p>Rick and Morty is one of the most succesful adults cartoons. This cartoon follows the adventures

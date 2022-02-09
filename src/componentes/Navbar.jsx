@@ -9,7 +9,6 @@ return(
             <ul className="list"> 
             <li><Link className="link" to="/">Home</Link></li>
             <li><Link className="link" to='/characters'>Characters</Link></li>
-            <li><Link className="link" to='/social-media'> Social Media</Link></li>
             </ul>
         </nav>
     </header>

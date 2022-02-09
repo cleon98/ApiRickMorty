@@ -14,7 +14,7 @@ const OneCharacter = () =>{
 
     setTimeout(() =>{
 
-    console.log(character)
+    console.log(otroValor)
 
     },2000)
 
